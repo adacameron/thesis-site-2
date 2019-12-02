@@ -16,21 +16,30 @@ body {
 
 
 h1 {
+  margin-top: 40px;
+  text-align: center;
   font-size: 3em;
   color: #000000;
   margin: 20px;
   padding: 10px;
   font-weight:bolder;
+
 }
 
 h2 {
   font-size: 2em;
   color: #fbed0d; /*yellow*/
   background-color: black;
-  padding: 10px;
-  text-align: right;
-  margin-right: 10px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
   font-weight: bold;
+
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
 }
 
 p {
@@ -49,6 +58,8 @@ a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+
+
 
 .navbar {
     padding: 15px 10px;
@@ -223,8 +234,9 @@ a {
     text-decoration: none;
 }
 a:hover{
-  color: #fbed0d;
-  text-decoration: none;]
+  color: #423C3B;
+  text-decoration: underline;
+
 }
 
 /* ---------------------------------------------------
@@ -257,7 +269,7 @@ a:hover{
 }
 
 .bio-heading{
-  text-align: center
+  text-align: center;
 }
 
 
